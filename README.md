@@ -1,0 +1,2 @@
+# CPWD-Complaint-Management-System
+A progressive web application, to provide Central Government employees the ease of filing complaints with CPWD, reviewing its status, timely allocation of workers with enhanced transparency due to the tracking system, and simultaneous information sharing among the residents and CPWD via mails. Technologies used: HTML, CSS, Bootstrap, Javascript, PHP, MySql, PHPMailer with Simple Mail Transfer Protocol (SMTP)
