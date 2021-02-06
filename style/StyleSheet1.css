@@ -1,0 +1,324 @@
+﻿html
+{
+    font-family:Arial, Helvetica, sans-serif; color:#333;
+}
+
+body
+{
+	background-color:#d6d6c2;
+	 margin:0;
+}
+
+a{
+	font-size:105%;
+}
+
+
+.collapse1{
+    text-align:center;
+    display:block;
+}
+
+#container {
+	clear:both;    
+    margin:0 auto;
+    background:#fff;
+}
+
+#header {
+    width:100%;
+    background:black;
+    margin-top:0px;
+}
+
+#cpwd {
+    width:100%;
+    margin-top:0px;
+    margin-bottom:0px;
+}
+#logo {
+    float:left;
+    width:10%;
+    background-color:#ccc;
+    margin-top:0px;
+    margin-left:0px;
+    margin-bottom:0px;
+
+}
+
+#top-info {
+    float:right;
+    width:35%;
+	height:auto;    
+    clear:both; 
+    margin-right:0px;
+    margin-top:0px;   
+    margin-bottom:0px;
+    
+}
+#navbar {
+    clear:both;
+}
+#navbar ul{
+    margin:0;
+    padding:0;
+    display:block;
+	
+}
+
+#side{
+    margin:0; 
+    padding:0;   
+    list-style-type: none;
+}
+
+.sidea {
+    margin-top:0;
+    padding:7%;
+    display: block;
+    text-decoration: none;
+    text-align:right;
+}
+
+#banner {
+background:#666;
+height:80%;
+width:100%;
+padding:15%;
+clear:both;
+}
+
+#left-col{
+    width:65%;
+    color:#FFF;
+    height:inherit;
+}
+
+
+#right-col{
+   
+    width:35%;
+    color:#00004d;   
+    height:inherit;  
+}
+
+#blank-right-col{
+    width:35%;
+    color:#00004d;    
+}
+
+#content-area
+{
+	 background-color:#d6d6c2;
+  	 clear:both;
+	width:100%;
+
+	
+}
+
+#footer{
+    position:relative;
+    //z-index:10;
+    clear:both;
+    width:100%;
+    border-top: 2px solid white;
+}
+#steps{
+    background: black; /* For browsers that do not support gradients */    
+    background: -webkit-linear-gradient(black,#000066); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(black,#000066); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(black,#000066); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(black, #000066); /* Standard syntax (must be last) */
+
+    color:white;
+    clear:both;
+}
+
+#about{
+    background: black; /* For browsers that do not support gradients */    
+    background: -webkit-linear-gradient(black,#000066); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(black,#000066); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(black,#000066); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(black, #000066); /* Standard syntax (must be last) */
+
+    color:white;
+    clear:both;
+}
+
+#contacts{
+    clear:both;
+} 
+
+.wrapper{
+ display:table;
+
+}
+
+.sub-wrapper{
+ display:table;
+
+}
+.equalH1{
+ display:table-cell;
+ 
+}
+
+.equalH2{
+ display:table-cell;
+ 
+}
+
+#userI{
+ width:30%;
+ margin-left:35%;
+}
+
+
+#sideI {
+width:15%; background-color: #f1f1f1;
+}
+
+#subN {
+    padding:1%; 
+    width:100%;
+
+}
+@media only screen and (max-width:1041px) {
+    .collapse1 {
+	display:none;
+        text-align: center;
+    	width:100%;
+	}
+    
+        .collapse1 > li {
+            display:block;
+		width:100%;  
+		clear:both;  
+    }
+   
+    .nav-btn{
+        display:block;
+        background-color:#333;
+        color:#FFF;
+        font-size:40px;
+        text-align:center;
+        cursor:pointer;
+        
+    }
+    .nav-btn:before{
+        content: "\f0c9";
+    font-family: FontAwesome;
+                }
+   
+
+
+}
+
+
+
+@media only screen and (max-width:850px) {
+ 
+#sideI
+{
+	display:none;
+}
+ .wrapper{
+    display:block;
+  }
+
+.equalH1{
+
+display:block;
+clear:both;
+
+}
+
+.equalH2{
+ display:table-cell;
+ 
+}
+
+#right-col{      
+    width:100%;
+    color:#00004d;   
+    height:inherit;  
+	display:block;
+}
+
+#blank-right-col{
+    width:100%;
+    color:#00004d;    
+height:inherit;  
+	display:block;
+}
+
+#left-col{
+    width:100%;
+    color:#FFF;
+	overflow:hidden;
+	clear:both;
+
+}
+}
+
+@media only screen and (max-width:750px) {
+#right-col{      
+    width:100%;
+    color:#00004d;   
+    height:inherit;  
+display:block;
+}
+
+#blank-right-col{
+    width:100%;
+    color:#00004d;    
+}
+
+#left-col{
+    width:100%;
+    color:#FFF;
+    height:inherit;
+	clear:both;
+}
+}
+
+
+@media only screen and (max-width:500px) {
+
+#userI{
+        
+	margin-left:35%;
+	
+	}
+
+#left-col{
+    width:100%;
+    color:#FFF;
+    height:inherit;
+	clear:both;
+}
+
+}
+
+@media only screen and (max-width:400px) {
+
+    
+  #sideI{
+	display:none;
+
+  }
+
+    #userI{
+        
+	margin-left:35%;
+	
+	}
+
+#left-col{
+    width:100%;
+    color:#FFF;
+    height:inherit;
+clear:both;
+}
+ 
+  }

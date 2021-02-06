@@ -1,0 +1,205 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Name>complaint</Name>
+    <ProjectGuid>{8dd9803a-394d-4426-917a-4d51bb647f35}</ProjectGuid>
+    <RootNamespace>
+    </RootNamespace>
+    <OutputType>Library</OutputType>
+    <ProjectTypeGuids>{A0786B88-2ADB-4C21-ABE8-AA2D79766269}</ProjectTypeGuids>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <IncludeDebugInformation>true</IncludeDebugInformation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <IncludeDebugInformation>false</IncludeDebugInformation>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="images\1.gif" />
+    <Compile Include="images\2.jpg" />
+    <Compile Include="images\3.png" />
+    <Compile Include="images\4.jpeg" />
+    <Compile Include="images\cpwdLogo.png" />
+    <Compile Include="img\a22.png" />
+    <Compile Include="img\b05.png" />
+    <Compile Include="img\ele.jpg" />
+    <Compile Include="img\fuse-box-slider-t.jpg" />
+    <Compile Include="img\light.jpg" />
+    <Compile Include="img\loading.gif" />
+    <Compile Include="img\water.jpg" />
+    <Compile Include="img\welding.jpg" />
+    <Compile Include="js\jquery-1.9.1.min.js" />
+    <Compile Include="js\jssor.slider.debug.js" />
+    <Compile Include="js\jssor.slider.min.js" />
+    <Compile Include="js\jssor.slider.mini.js" />
+    <Compile Include="phpmailer\PHPMailer-master\docs\Callback_function_notes.txt" />
+    <Compile Include="phpmailer\PHPMailer-master\docs\DomainKeys_notes.txt" />
+    <Compile Include="phpmailer\PHPMailer-master\docs\extending.html" />
+    <Compile Include="phpmailer\PHPMailer-master\docs\faq.html" />
+    <Compile Include="phpmailer\PHPMailer-master\docs\generatedocs.sh" />
+    <Compile Include="phpmailer\PHPMailer-master\docs\Note_for_SMTP_debugging.txt" />
+    <Compile Include="phpmailer\PHPMailer-master\docs\pop3_article.txt" />
+    <Compile Include="phpmailer\PHPMailer-master\examples\images\phpmailer.png" />
+    <Compile Include="phpmailer\PHPMailer-master\examples\images\phpmailer_mini.png" />
+    <Compile Include="phpmailer\PHPMailer-master\examples\scripts\shAutoloader.js" />
+    <Compile Include="phpmailer\PHPMailer-master\examples\scripts\shBrushPhp.js" />
+    <Compile Include="phpmailer\PHPMailer-master\examples\scripts\shCore.js" />
+    <Compile Include="phpmailer\PHPMailer-master\examples\scripts\shLegacy.js" />
+    <Compile Include="phpmailer\PHPMailer-master\examples\scripts\XRegExp.js" />
+    <Compile Include="phpmailer\PHPMailer-master\examples\styles\shCore.css" />
+    <Compile Include="phpmailer\PHPMailer-master\examples\styles\shCoreDefault.css" />
+    <Compile Include="phpmailer\PHPMailer-master\examples\styles\shCoreDjango.css" />
+    <Compile Include="phpmailer\PHPMailer-master\examples\styles\shCoreEclipse.css" />
+    <Compile Include="phpmailer\PHPMailer-master\examples\styles\shCoreEmacs.css" />
+    <Compile Include="phpmailer\PHPMailer-master\examples\styles\shCoreFadeToGrey.css" />
+    <Compile Include="phpmailer\PHPMailer-master\examples\styles\shCoreMDUltra.css" />
+    <Compile Include="phpmailer\PHPMailer-master\examples\styles\shCoreMidnight.css" />
+    <Compile Include="phpmailer\PHPMailer-master\examples\styles\shCoreRDark.css" />
+    <Compile Include="phpmailer\PHPMailer-master\examples\styles\shThemeAppleScript.css" />
+    <Compile Include="phpmailer\PHPMailer-master\examples\styles\shThemeDefault.css" />
+    <Compile Include="phpmailer\PHPMailer-master\examples\styles\shThemeDjango.css" />
+    <Compile Include="phpmailer\PHPMailer-master\examples\styles\shThemeEclipse.css" />
+    <Compile Include="phpmailer\PHPMailer-master\examples\styles\shThemeEmacs.css" />
+    <Compile Include="phpmailer\PHPMailer-master\examples\styles\shThemeFadeToGrey.css" />
+    <Compile Include="phpmailer\PHPMailer-master\examples\styles\shThemeMDUltra.css" />
+    <Compile Include="phpmailer\PHPMailer-master\examples\styles\shThemeMidnight.css" />
+    <Compile Include="phpmailer\PHPMailer-master\examples\styles\shThemeRDark.css" />
+    <Compile Include="phpmailer\PHPMailer-master\examples\styles\shThemeVisualStudio.css" />
+    <Compile Include="phpmailer\PHPMailer-master\examples\styles\wrapping.png" />
+    <Compile Include="phpmailer\PHPMailer-master\examples\code_generator.phps" />
+    <Compile Include="phpmailer\PHPMailer-master\examples\contents.html" />
+    <Compile Include="phpmailer\PHPMailer-master\examples\contentsutf8.html" />
+    <Compile Include="phpmailer\PHPMailer-master\examples\exceptions.phps" />
+    <Compile Include="phpmailer\PHPMailer-master\examples\gmail.phps" />
+    <Compile Include="phpmailer\PHPMailer-master\examples\gmail_xoauth.phps" />
+    <Compile Include="phpmailer\PHPMailer-master\examples\index.html" />
+    <Compile Include="phpmailer\PHPMailer-master\examples\mail.phps" />
+    <Compile Include="phpmailer\PHPMailer-master\examples\mailing_list.phps" />
+    <Compile Include="phpmailer\PHPMailer-master\examples\pop_before_smtp.phps" />
+    <Compile Include="phpmailer\PHPMailer-master\examples\sendmail.phps" />
+    <Compile Include="phpmailer\PHPMailer-master\examples\send_file_upload.phps" />
+    <Compile Include="phpmailer\PHPMailer-master\examples\signed-mail.phps" />
+    <Compile Include="phpmailer\PHPMailer-master\examples\smtp.phps" />
+    <Compile Include="phpmailer\PHPMailer-master\examples\smtp_check.phps" />
+    <Compile Include="phpmailer\PHPMailer-master\examples\smtp_no_auth.phps" />
+    <Compile Include="phpmailer\PHPMailer-master\examples\ssl_options.phps" />
+    <Compile Include="phpmailer\PHPMailer-master\extras\EasyPeasyICS.php" />
+    <Compile Include="phpmailer\PHPMailer-master\extras\htmlfilter.php" />
+    <Compile Include="phpmailer\PHPMailer-master\extras\ntlm_sasl_client.php" />
+    <Compile Include="phpmailer\PHPMailer-master\extras\README.md" />
+    <Compile Include="phpmailer\PHPMailer-master\language\phpmailer.lang-am.php" />
+    <Compile Include="phpmailer\PHPMailer-master\language\phpmailer.lang-ar.php" />
+    <Compile Include="phpmailer\PHPMailer-master\language\phpmailer.lang-az.php" />
+    <Compile Include="phpmailer\PHPMailer-master\language\phpmailer.lang-be.php" />
+    <Compile Include="phpmailer\PHPMailer-master\language\phpmailer.lang-bg.php" />
+    <Compile Include="phpmailer\PHPMailer-master\language\phpmailer.lang-br.php" />
+    <Compile Include="phpmailer\PHPMailer-master\language\phpmailer.lang-ca.php" />
+    <Compile Include="phpmailer\PHPMailer-master\language\phpmailer.lang-ch.php" />
+    <Compile Include="phpmailer\PHPMailer-master\language\phpmailer.lang-cz.php" />
+    <Compile Include="phpmailer\PHPMailer-master\language\phpmailer.lang-de.php" />
+    <Compile Include="phpmailer\PHPMailer-master\language\phpmailer.lang-dk.php" />
+    <Compile Include="phpmailer\PHPMailer-master\language\phpmailer.lang-el.php" />
+    <Compile Include="phpmailer\PHPMailer-master\language\phpmailer.lang-eo.php" />
+    <Compile Include="phpmailer\PHPMailer-master\language\phpmailer.lang-es.php" />
+    <Compile Include="phpmailer\PHPMailer-master\language\phpmailer.lang-et.php" />
+    <Compile Include="phpmailer\PHPMailer-master\language\phpmailer.lang-fa.php" />
+    <Compile Include="phpmailer\PHPMailer-master\language\phpmailer.lang-fi.php" />
+    <Compile Include="phpmailer\PHPMailer-master\language\phpmailer.lang-fo.php" />
+    <Compile Include="phpmailer\PHPMailer-master\language\phpmailer.lang-fr.php" />
+    <Compile Include="phpmailer\PHPMailer-master\language\phpmailer.lang-gl.php" />
+    <Compile Include="phpmailer\PHPMailer-master\language\phpmailer.lang-he.php" />
+    <Compile Include="phpmailer\PHPMailer-master\language\phpmailer.lang-hr.php" />
+    <Compile Include="phpmailer\PHPMailer-master\language\phpmailer.lang-hu.php" />
+    <Compile Include="phpmailer\PHPMailer-master\language\phpmailer.lang-id.php" />
+    <Compile Include="phpmailer\PHPMailer-master\language\phpmailer.lang-it.php" />
+    <Compile Include="phpmailer\PHPMailer-master\language\phpmailer.lang-ja.php" />
+    <Compile Include="phpmailer\PHPMailer-master\language\phpmailer.lang-ka.php" />
+    <Compile Include="phpmailer\PHPMailer-master\language\phpmailer.lang-ko.php" />
+    <Compile Include="phpmailer\PHPMailer-master\language\phpmailer.lang-lt.php" />
+    <Compile Include="phpmailer\PHPMailer-master\language\phpmailer.lang-lv.php" />
+    <Compile Include="phpmailer\PHPMailer-master\language\phpmailer.lang-ms.php" />
+    <Compile Include="phpmailer\PHPMailer-master\language\phpmailer.lang-nl.php" />
+    <Compile Include="phpmailer\PHPMailer-master\language\phpmailer.lang-no.php" />
+    <Compile Include="phpmailer\PHPMailer-master\language\phpmailer.lang-pl.php" />
+    <Compile Include="phpmailer\PHPMailer-master\language\phpmailer.lang-pt.php" />
+    <Compile Include="phpmailer\PHPMailer-master\language\phpmailer.lang-ro.php" />
+    <Compile Include="phpmailer\PHPMailer-master\language\phpmailer.lang-ru.php" />
+    <Compile Include="phpmailer\PHPMailer-master\language\phpmailer.lang-se.php" />
+    <Compile Include="phpmailer\PHPMailer-master\language\phpmailer.lang-si.php" />
+    <Compile Include="phpmailer\PHPMailer-master\language\phpmailer.lang-sk.php" />
+    <Compile Include="phpmailer\PHPMailer-master\language\phpmailer.lang-sl.php" />
+    <Compile Include="phpmailer\PHPMailer-master\language\phpmailer.lang-sr.php" />
+    <Compile Include="phpmailer\PHPMailer-master\language\phpmailer.lang-tr.php" />
+    <Compile Include="phpmailer\PHPMailer-master\language\phpmailer.lang-uk.php" />
+    <Compile Include="phpmailer\PHPMailer-master\language\phpmailer.lang-vi.php" />
+    <Compile Include="phpmailer\PHPMailer-master\language\phpmailer.lang-zh.php" />
+    <Compile Include="phpmailer\PHPMailer-master\language\phpmailer.lang-zh_cn.php" />
+    <Compile Include="phpmailer\PHPMailer-master\test\bootstrap.php" />
+    <Compile Include="phpmailer\PHPMailer-master\test\fakepopserver.sh" />
+    <Compile Include="phpmailer\PHPMailer-master\test\fakesendmail.sh" />
+    <Compile Include="phpmailer\PHPMailer-master\test\phpmailerLangTest.php" />
+    <Compile Include="phpmailer\PHPMailer-master\test\phpmailerTest.php" />
+    <Compile Include="phpmailer\PHPMailer-master\test\runfakepopserver.sh" />
+    <Compile Include="phpmailer\PHPMailer-master\test\testbootstrap-dist.php" />
+    <Compile Include="phpmailer\PHPMailer-master\test\test_callback.php" />
+    <Compile Include="phpmailer\PHPMailer-master\.gitignore" />
+    <Compile Include="phpmailer\PHPMailer-master\.scrutinizer.yml" />
+    <Compile Include="phpmailer\PHPMailer-master\.travis.yml" />
+    <Compile Include="phpmailer\PHPMailer-master\changelog.md" />
+    <Compile Include="phpmailer\PHPMailer-master\class.phpmailer.php" />
+    <Compile Include="phpmailer\PHPMailer-master\class.phpmaileroauth.php" />
+    <Compile Include="phpmailer\PHPMailer-master\class.phpmaileroauthgoogle.php" />
+    <Compile Include="phpmailer\PHPMailer-master\class.pop3.php" />
+    <Compile Include="phpmailer\PHPMailer-master\class.smtp.php" />
+    <Compile Include="phpmailer\PHPMailer-master\composer.json" />
+    <Compile Include="phpmailer\PHPMailer-master\composer.lock" />
+    <Compile Include="phpmailer\PHPMailer-master\get_oauth_token.php" />
+    <Compile Include="phpmailer\PHPMailer-master\LICENSE" />
+    <Compile Include="phpmailer\PHPMailer-master\PHPMailerAutoload.php" />
+    <Compile Include="phpmailer\PHPMailer-master\README.md" />
+    <Compile Include="phpmailer\PHPMailer-master\travis.phpunit.xml.dist" />
+    <Compile Include="phpmailer\PHPMailer-master\VERSION" />
+    <Compile Include="style\font-awesome.min.css" />
+    <Compile Include="style\StyleSheet1.css" />
+    <Compile Include="style\w3.css" />
+    <Compile Include="Book_complain1.php" />
+    <Compile Include="Book_complain2.php" />
+    <Compile Include="Book_complain3.php" />
+    <Compile Include="Book_complaintfinal.php" />
+    <Compile Include="change.php" />
+    <Compile Include="contactus.php" />
+    <Compile Include="contactusm.html" />
+    <Compile Include="dbconnect.php" />
+    <Compile Include="footer.html" />
+    <Compile Include="header.html" />
+    <Compile Include="homem.html" />
+    <Compile Include="index.php" />
+    <Compile Include="loginfinal.php" />
+    <Compile Include="Logout.php" />
+    <Compile Include="profile.php" />
+    <Compile Include="restore.php" />
+    <Compile Include="Service_complain.php" />
+    <Compile Include="Service_complainfinal.php" />
+    <Compile Include="signup.php" />
+    <Compile Include="signup_final.php" />
+    <Compile Include="signup_final2.php" />
+    <Compile Include="updation.php" />
+    <Compile Include="updation_final.php" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="images" />
+    <Folder Include="img" />
+    <Folder Include="js" />
+    <Folder Include="phpmailer\PHPMailer-master\docs" />
+    <Folder Include="phpmailer\PHPMailer-master\examples\images" />
+    <Folder Include="phpmailer\PHPMailer-master\examples\scripts" />
+    <Folder Include="phpmailer\PHPMailer-master\examples\styles" />
+    <Folder Include="phpmailer\PHPMailer-master\examples" />
+    <Folder Include="phpmailer\PHPMailer-master\extras" />
+    <Folder Include="phpmailer\PHPMailer-master\language" />
+    <Folder Include="phpmailer\PHPMailer-master\test" />
+    <Folder Include="phpmailer\PHPMailer-master" />
+    <Folder Include="phpmailer" />
+    <Folder Include="style" />
+  </ItemGroup>
+</Project>

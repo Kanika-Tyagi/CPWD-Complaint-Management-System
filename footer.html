@@ -1,0 +1,84 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>
+        Profile
+    </title>
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1, user-scalable=no">
+
+    <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="ideal-image-slider.css">
+    <link rel="stylesheet" href="themes/default/default.css">
+
+    <link rel="stylesheet" href="style/StyleSheet1.css">
+
+</head>
+<body>
+ <!----FOOTER-->
+        <div id="footer" class="w3-container w3-padding-32 w3-black" style="margin-bottom:0px;">
+            <div class="w3-container w3-black  w3-center">
+                <h4>Follow Us</h4>
+                <a class="w3-btn-floating w3-center w3-blue" href="http://www.facebook.com" title="Facebook" target="_blank"><i class="fa fa-facebook"></i></a>
+                <a class="w3-btn-floating w3-center w3-blue" href="https://twitter.com/" title="Twitter" target="_blank"><i class="fa fa-twitter"></i></a>
+                <a class="w3-btn-floating w3-center w3-blue" href="https://plus.google.com/" title="Google +" target="_blank"><i class="fa fa-google-plus"></i></a>
+                <a class="w3-btn-floating w3-center w3-blue" href="https://in.linkedin.com/" title="Linkedin" target="_blank"><i class="fa fa-linkedin"></i></a>
+            </div>
+            <!--GoTOTop-->
+            <div style="position:relative;bottom:103px;z-index:1;" class="w3-tooltip w3-right">
+                <a class="scrollup w3-btn" href="">
+                    <span class="w3-xxlarge">
+                        <i class="fa fa-chevron-circle-up"></i>
+                    </span>
+                </a>
+            </div>
+            <!--End of Go TO Top-->
+        </div> <!--End of Footer-->
+
+    <!--SCRIPT-->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+
+    <!--Smooth scrollup Code-->
+    <script type="text/javascript">
+    $(document).ready(function(){
+
+        $(window).scroll(function(){
+            if ($(this).scrollTop() > 100) {
+                $('.scrollup').fadeIn();
+            } else {
+                $('.scrollup').fadeOut();
+            }
+        });
+
+        $('.scrollup').click(function(){
+            $("html, body").animate({ scrollTop: 0 }, 600);
+            return false;
+        });
+
+    });
+    </script>
+    <!--End of Smooth scroll up Code-->
+
+    <script>
+        function showInfo(id) {
+        document.getElementById(id).classList.toggle("w3-show");
+        }
+    </script>
+    <script>
+        $('span.nav-btn').click(function () {
+            $('ul.collapse1').slideToggle();
+
+        })
+
+        $(window).resize(function () {
+            if ($(window).width() > 750){
+                $('ul.collapse1').removeAttr('style');
+            }
+
+        })
+    </script>
+</body>
+</html>
